@@ -53,7 +53,7 @@ async def on_message(message):
         time_end = time.time()
         activity = "機器人已運行 "+str(int(time_end - time_start))+" 秒"
         embed=discord.Embed(title="關於機器人")
-        embed.add_field(name="Version", value="3.2.220207", inline=True)
+        embed.add_field(name="Version", value="3.3 Open Source", inline=True)
         embed.add_field(name="Info", value="(´･ω･`)? Open Source Version", inline=False)
         embed.add_field(name="已運行時間", value=activity, inline=False)
         embed.add_field(name="製作人員", value="竹子", inline=False)
