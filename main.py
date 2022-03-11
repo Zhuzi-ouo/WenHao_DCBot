@@ -6,10 +6,7 @@ import linecache
 import keep_alive
 import sys
 sys.path.append("Package/")
-from ApexTracker import AT
-from R6Tracker import R6T
 from com_eat import eat
-from weather import weather
 
 from discord import user
 from discord.client import Client
