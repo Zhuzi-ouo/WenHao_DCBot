@@ -3,7 +3,6 @@ from discord import message
 import random
 import time
 import linecache
-import keep_alive
 import sys
 sys.path.append("Package/")
 from com_eat import eat
