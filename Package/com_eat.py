@@ -12,4 +12,4 @@ def eat():
                  "你應該要吃TSJ薯餅",
                  "你應該要吃牛排",
                  "你應該要吃馬鈴薯燉肉"]
-    eat.eatran=random.choice(eatlist)
+    return random.choice(eatlist)
