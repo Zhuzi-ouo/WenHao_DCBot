@@ -95,8 +95,7 @@ async def on_message(message):
             await message.channel.send(embed=embed)
 
     if message.content == "-eat":
-        eat()
-        await message.channel.send(eat.eatran)
+        await message.channel.send(eat())
   
     if message.content.startswith("-say"):
         if message.mention_everyone:
